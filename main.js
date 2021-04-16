@@ -1,5 +1,3 @@
-function copyEmail() {
-    var copyText = 'stefankubisa@gmail.com';
-    copyText.select();
-    document.execCommand("Copy");
+var copyFunction = function(){
+    navigator.clipboard.writeText('stefankubisa@gnail.com');
 }
