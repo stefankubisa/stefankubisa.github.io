@@ -1,3 +1,93 @@
 .noHover{
     pointer-events: none;
 }
+
+.navbar {
+    padding-top: 15px;
+}
+
+.nav-item:hover {
+    color: blue;
+}
+
+.nav-item-flag:hover {
+    background-color: #13aff0;
+    border-radius: 5%;
+}
+
+body {
+    background-color: rgb(245,241,228);
+    font-family: 'Vollkorn', serif;
+}
+
+.card {
+    background-color: rgb(238, 233, 218);
+    font-family: 'Vollkorn', serif;
+}
+
+* {
+    font-size: 14pt;
+}
+
+.social-item-linkdin:hover {
+    background: #ec500f;
+    border-radius: 100%;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+/*FOOTER*/
+.site-footer {
+    padding: 1rem 1.875rem;
+    border-top: 0.0625rem solid #e9e9e9;
+}
+
+.row-middle {
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.site-footer-copyright {
+    font-size: 14px;
+    text-align: center;
+}
+
+.site-footer-links {
+    align-items: center;
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
+.social-item-linkdin {
+    display: inline-block;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.social-item-github {
+    display: inline-block;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.social-item-github:hover {
+    background: #36aef3;
+    border-radius: 100%;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.back-to-top {
+    font-size: 14px;
+    text-align: right;
+    margin-top: 0.25rem;
+}
+
+.back-to-top a {
+    color: black;
+    text-decoration: black;
+}
+
+.back-to-top a:hover {
+    color: blue;
+}
