@@ -55,6 +55,19 @@ body {
     filter: invert(1);
 }
 
+.social-item-mail2 {
+    margin-right: 0.125rem;
+    margin-bottom: 0.4rem;
+}
+
+.social-item-mail2:hover {
+    background: #ec500f;
+    background-size: 50% 50%;
+    border-radius: 5%;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
 /*FOOTER*/
 .site-footer {
     padding: 1rem 1.875rem;
