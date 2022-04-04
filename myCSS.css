@@ -5,6 +5,7 @@
 .navbar {
     padding-top: 15px;
     background-color: #515a63 !important;
+    justify-content: center;
 }
 
 .nav-item:hover {
